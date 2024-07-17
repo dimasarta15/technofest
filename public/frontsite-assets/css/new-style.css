@@ -1,0 +1,219 @@
+.main-menu .navigation>li>a:before {
+    background: #ec167f;
+}
+
+.btn-style-one {
+    background: #ec167f;
+}
+
+.btn-style-one:hover {
+    color: #ec167f;
+}
+
+section.banner-conference-two {
+    height: 100vh;
+}
+
+img.img-logo {
+    max-height: 65px;
+}
+
+.main-header .logo-box .logo img {
+    max-height: 50px;
+}
+
+.header-style-two .outer-box, .header-style-two .logo-box, .header-style-two .main-menu .navigation > li {
+    margin-left: 20px;
+}
+
+span.count-text {
+    font-size: 36px;
+    font-weight: bold;
+    font-size: bold;
+    color: #000;
+}
+
+.container-karya {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000bd;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    opacity: 0;
+}
+
+.container-karya:hover,
+.container-karya:active,
+.container-karya:focus {
+    opacity: 1;
+}
+
+.container-karya .title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: #ec167f;
+}
+
+.container-karya .title .sub-title {
+    margin: 0;
+    color: white;
+}
+
+
+.grecaptcha-badge {
+    bottom: 70px !important;
+}
+
+#myCarousel .list-inline {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+#myCarousel .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+}
+
+#myCarousel .carousel-indicators>li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#myCarousel .carousel-inner img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+#myCarousel .carousel-indicators>li.active img {
+    opacity: 0.7;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.overlay-video {
+    width: 100%;
+    border: 1px solid;
+    /* z-index: 9999; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.overlay-video:hover {
+    width: 100%;
+    border: 1px solid;
+    /* z-index: 9999; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.box-video {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -o-background-size: cover;
+    background-position: center;
+    margin: 10px 10px 0 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+.box-caption-video {
+    max-width: 650px;
+    height: 120px;
+    margin: 0 10px 10px 10px;
+    padding: 10px 0;
+    background: #fff;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+}
